@@ -1,22 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🛡️ SecureMate — Android Security & Device Scanner
 
-# Run and deploy your AI Studio app
+SecureMate is an Android application designed to scan installed apps and system settings to evaluate the security state of your device. It helps users detect risky permissions, suspicious applications, and potential device-level security vulnerabilities.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/5192e2dc-dd87-4c07-af37-f10998174e0b
+## 📲 Quick Install
 
-## Run Locally
+Click the button below to download and try the latest APK directly:
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+[![Download APK](https://img.shields.io/badge/Download-SecureMate_APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/satyam1120k/Secure-Mate/raw/master/SecureMate.apk)
 
+*(Note: Ensure **"Install from Unknown Sources"** is enabled in your Android settings to install the APK).*
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+---
+
+## 🚀 Run and Deploy Locally
+
+Follow these steps to set up and run the app from source code using Android Studio:
+
+### Prerequisites
+* **Android Studio** (Jellyfish or newer)
+* **JDK 21**
+* **Gemini API Key**
+
+### Setup Instructions
+
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/satyam1120k/Secure-Mate.git](https://github.com/satyam1120k/Secure-Mate.git)
