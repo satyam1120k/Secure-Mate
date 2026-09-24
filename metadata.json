@@ -1,0 +1,6 @@
+{
+  "name": "SecureMate",
+  "description": "Personal Cybersecurity Assistant for Android — security score, app & permission analysis, phishing detector, password strength, and device hygiene.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
